@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c51ac1664e8054982b47cb5d6ef959, type: 3}
+  m_Name: SpriteDataBase_test
+  m_EditorClassIdentifier: 
+  _spriteDataList:
+  - setName: kou
+    _dataList:
+    - {fileID: 21300000, guid: 45b57339d6f5f82448174bbad4d052a7, type: 3}
+  - setName: princess
+    _dataList:
+    - {fileID: 21300000, guid: 82a062bde24e6b9469fc346eb41836cf, type: 3}
+  - setName: father
+    _dataList:
+    - {fileID: 21300000, guid: 34b15d9ec758ac94c82874a3bf2a7ff8, type: 3}
+  - setName: mother
+    _dataList:
+    - {fileID: 21300000, guid: 793d0890bf35d7b4f83947107170fcb2, type: 3}
+  - setName: king
+    _dataList:
+    - {fileID: 21300000, guid: be5950173dc753d438378877698b6dd6, type: 3}
