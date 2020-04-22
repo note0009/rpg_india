@@ -1,0 +1,49 @@
+{
+    "saveList": [
+        {
+            "_serchId": "testFlag",
+            "_memberSet_st": {
+                
+            },
+            "_memberSet_int": {
+                "flagNum": 0
+            }
+        },
+        {
+            "_serchId": "home",
+            "_memberSet_st": {
+                
+            },
+            "_memberSet_int": {
+                "flagNum": 0
+            }
+        },
+        {
+            "_serchId": "castle",
+            "_memberSet_st": {
+                
+            },
+            "_memberSet_int": {
+                "flagNum": 0
+            }
+        },
+        {
+            "_serchId": "desert",
+            "_memberSet_st": {
+                
+            },
+            "_memberSet_int": {
+                "flagNum": 0
+            }
+        },
+        {
+            "_serchId": "kingroom",
+            "_memberSet_st": {
+                
+            },
+            "_memberSet_int": {
+                "flagNum": 0
+            }
+        }
+    ]
+}

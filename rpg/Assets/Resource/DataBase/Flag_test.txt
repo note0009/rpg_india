@@ -1,0 +1,17 @@
+Type(Flag)
+id testFlag
+	flagNum 0
+
+id home
+	flagNum 0
+
+id castle
+	flagNum 0
+
+id desert
+	flagNum 0
+
+id kingroom
+	flagNum 0
+
+end

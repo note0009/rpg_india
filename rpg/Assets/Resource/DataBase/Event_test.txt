@@ -1,0 +1,183 @@
+﻿Type(Event)
+id: testevent
+	text{
+		$
+		text22
+		text2
+		$
+	}
+	term{
+		ormode true
+		id memeber 1 less
+		flagId flagNum 0 more
+		itemId haveNum 1 equal
+	}
+	next{
+		moveToClass
+		door_class
+	}
+
+id: home
+	text{
+		$#image[kou,0] center
+		$
+		俺名前はコウ！踊り子見習いだ。
+		$#image[father,0] center
+		$
+		これは俺の父親、王宮に騎士として仕えている。
+		$#image[mother,0] center
+		$
+		そしてこれは俺の母親、踊り子をしている。
+		$#image[reset] center
+		$
+		俺はいま踊り子になるために母さんの弟子となり、修行に励んでいるが
+		$
+		父さんには騎士になるように言われている。
+		$
+		俺としては踊り子になりたいんだけど、本来女性のなる職業だし
+		$
+		本当に立派な踊り子になれるのかな...
+		$#name[ナターシャ]
+		私はコウの踊り、好きだけどな！
+		$#name[コウ]
+		姫様！護衛もつけず、このような場所に来るのはやめてください！
+		$#image[princess,0] center
+		$#name[ナターシャ]
+		えー、いいじゃん！昔はよく二人で遊んでたんだし！
+		$
+		この人はこの王国の姫、ナターシャ様。
+		$
+		王宮に仕えていた父親の影響で、小さい頃よく一緒に遊んでいた。
+		$
+		今でもこうして、王宮を抜け出し遊びに来ている。
+		$#image[reset] center 
+		こんな風に、俺は平穏な暮らしを送っていた。
+		$
+		あの事件が起きるまでは...
+		$#flag[home] 1
+	}
+	term{
+		home flagNum 0 equal
+	}
+	
+id: castle
+	text{
+		$#image[kou,0] left
+		$#name[コウ]
+		すみません、父親に届け物があります、お目通し願えますでしょうか？
+		$
+		キャーー！
+		$
+		この声は！
+		$#name[コウ]
+		姫様！！
+		$#wait[300]
+		$#name[コウ]
+		大丈夫ですか、姫様！
+		$#image[princess,0] right
+		$#name[ナターシャ]
+		コウ！助けて！
+		$#image[king,0] right
+		$
+		なんだ、弱そうな兵士だな。
+		$#name[コウ]
+		誰だお前は！姫様をどうする気だ！
+		$#name[悪魔]
+		それをお前に行っても、この女の運命は変わらない。
+		$#name[悪魔]
+		止めたければ、力づくでやってみろ。
+		$#name[コウ]
+		...今助けます、姫様。
+		$バキッボコッ
+		$#image[princess,0] right
+		$#name[ナターシャ]
+		コウ...もうやめて！
+		$#image[king,0] right
+		$#name[悪魔]
+		じゃあな、こいつは連れていく。
+		$#image[reset] right
+		$#name[コウ]
+		ハァハァ、くそっ
+		$#name[コウ]
+		必ず助けますから...姫様。
+		$#image[reset] left
+		$#flag[castle] 1
+		$
+	}
+	term{
+		castle flagNum 0 equal
+	}
+id: desert
+	text{
+		$#image[kou,0] left
+		$#image[mother,0] right
+		$#name[母]
+		コウ！待ちな！
+		ナターシャちゃん、さらわれちゃったんだってね。
+		$#name[コウ]
+		ああ、そうだよ。
+		$#name[母]
+		助けに行くつもりなんだね？
+		$#name[コウ]
+		...
+		$#name[母]
+		そのまま行っても、殺されるだけだよ。
+		$#name[コウ]
+		そんなことわかってるよ！
+		$#name[母]
+		コウに、まだ教えてない舞がある。
+		$#name[母]
+		それを習得出来れば、ナターシャちゃんを
+		救えるかもしれない。
+		$#name[コウ]
+		本当に！？
+		$#name[母]
+		あんたの努力次第だけどね。
+		$#name[母]
+		本当に助けたいなら、死ぬ気で付いてきな！
+		$#image[reset] right
+		$#image[reset] left
+		$#flag[desert] 1
+		$
+	}
+	term{
+		desert flagNum 0 equal
+	}
+	
+id: kingroom
+	text{
+		$
+		kingroom
+		$#flag[kingroom] 1
+		$
+	}
+	term{
+		kingroom flagNum 0 equal
+	}
+
+id: mapTohome
+	text{
+		$#map[home]
+		$
+	}
+
+id: mapTocastle
+	text{
+		$#map[castle]
+		$
+	}
+	
+	
+id: mapTodesert
+	text{
+		$#map[desert]
+		$
+	}
+	
+	
+id: mapTokingroom
+	text{
+		$#map[kingroom]
+		$
+	}
+	

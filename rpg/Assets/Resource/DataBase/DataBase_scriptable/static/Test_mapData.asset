@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776b6b8e9da0b6f4fa4fa01b20b22322, type: 3}
+  m_Name: Test_mapData
+  m_EditorClassIdentifier: 
+  mapDataList:
+  - _mapName: home
+    _mapObject: {fileID: 5659170808183798682, guid: bbd4d75ef5474fc4989d9c69fa8b770e,
+      type: 3}
+  - _mapName: castle
+    _mapObject: {fileID: 8316041332643863046, guid: ad5029abe7aeee84ea103ed3bcd8979a,
+      type: 3}
+  - _mapName: desert
+    _mapObject: {fileID: 4762779071806996515, guid: 007bd1e995929264d8c0ea428013b839,
+      type: 3}
+  - _mapName: kingroom
+    _mapObject: {fileID: 4216984517310766917, guid: 395069a80a0bfe843b053009bc32ba2b,
+      type: 3}
