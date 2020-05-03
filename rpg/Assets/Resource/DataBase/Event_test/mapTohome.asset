@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: mapTohome
   m_EditorClassIdentifier: 
   _codeData:
-    _text: 
+    _text: '$#map[home]
+
+      $'
     _nextEventName: 
     _nextEventCode: {fileID: 0}
     coalTerm:

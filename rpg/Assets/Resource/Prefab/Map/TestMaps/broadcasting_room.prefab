@@ -329,6 +329,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3756228156936706675}
     m_Modifications:
+    - target: {fileID: 117609280514162775, guid: 3f737770d1fdcce40a6309bf9c223b8c,
+        type: 3}
+      propertyPath: m_Name
+      value: CheckEvent
+      objectReference: {fileID: 0}
     - target: {fileID: 5032891466902743808, guid: 3f737770d1fdcce40a6309bf9c223b8c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -384,20 +389,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 117609280514162775, guid: 3f737770d1fdcce40a6309bf9c223b8c,
-        type: 3}
-      propertyPath: m_Name
-      value: CheckEvent
-      objectReference: {fileID: 0}
     - target: {fileID: 3977937411785128911, guid: 3f737770d1fdcce40a6309bf9c223b8c,
         type: 3}
       propertyPath: _eventData
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 5602a682e7cd8a942a044aa841dc8831,
+        type: 2}
     - target: {fileID: 3977937411785128911, guid: 3f737770d1fdcce40a6309bf9c223b8c,
         type: 3}
       propertyPath: _eventDataId
-      value: chenged:door_housou_out
+      value: door_housou_out
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f737770d1fdcce40a6309bf9c223b8c, type: 3}

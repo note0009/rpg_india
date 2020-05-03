@@ -240,4 +240,12 @@ id: mapTokingroom
 		$#map[kingroom]
 		$
 	}
+
+id: castlebattle
+	text{
+		$
+		戦闘開始だ
+		$#battle[testset]
+		$
+	}
 	
