@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: mapTokingroom
   m_EditorClassIdentifier: 
   _codeData:
-    _text: 
+    _text: '$#map[kingroom]
+
+      $'
     _nextEventName: 
     _nextEventCode: {fileID: 0}
     coalTerm:

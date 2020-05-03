@@ -107,10 +107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7bb4b42fee93ef43be9fcf5c42f9fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chengeList:
-  - _beforeMapName: 
-    _movePos: {fileID: 83500755438843419}
-    _direction: 2
+  _firstPos: {fileID: 83500755438843419}
+  _firstDirection: {x: 0, y: 0}
 --- !u!1 &7964828791610176062
 GameObject:
   m_ObjectHideFlags: 0

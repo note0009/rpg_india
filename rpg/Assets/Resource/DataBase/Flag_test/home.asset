@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: home
   m_EditorClassIdentifier: 
   _data:
-    _serchId: 
+    _serchId: home

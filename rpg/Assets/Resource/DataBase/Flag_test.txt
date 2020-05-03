@@ -1,17 +1,15 @@
 Type(Flag)
-id testFlag
+id: testFlag
 	flagNum 0
 
-id home
+id: home
 	flagNum 0
 
-id castle
+id: castle
 	flagNum 0
 
-id desert
+id: desert
 	flagNum 0
 
-id kingroom
+id: kingroom
 	flagNum 0
-
-end

@@ -9,6 +9,9 @@
             "_memberSet_int": {
                 "maxNum": 20,
                 "haveNum": 0
+            },
+            "_memberSet_stList": {
+                
             }
         }
     ]

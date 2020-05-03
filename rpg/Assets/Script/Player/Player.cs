@@ -18,7 +18,7 @@ public class Player : SingletonMonoBehaviour<Player>
     [SerializeField] Sprite checkSprite;
 
     bool _actEnable = true;
-    ChengeFlag _chengeFlag = new ChengeFlag();
+    ChengeFlag _gmCheckFlag = new ChengeFlag();
 
     bool _inited = false;
 
@@ -30,17 +30,14 @@ public class Player : SingletonMonoBehaviour<Player>
         _frontCollier.Init(transform);
         _bodyCollider.AddTag("HitEvent");
         _bodyCollider.Init(transform);
-
-        _chengeFlag.SetFlag(EventCodeReadController._getIsReadNow);
-        _chengeFlag.SetAction(true, () => StopMove());
-        _chengeFlag.SetAction(false, () => StartMove());
+        SetPlayerMoveFlag();
 
         _inited = true;
     }
     void Update()
     {
         if (!_inited) return;
-        _chengeFlag.CheckFlag(EventCodeReadController._getIsReadNow);
+        MoveFlagUpdate();
         if (!_actEnable)
         {
             return;
@@ -66,6 +63,19 @@ public class Player : SingletonMonoBehaviour<Player>
     void StartMove()
     {
         WaitAction.Instance.CoalWaitAction(() => _actEnable = true, 0.1f);
+    }
+
+    void SetPlayerMoveFlag()
+    {
+        _gmCheckFlag.SetFlag(GameContoller.Instance._AnyOperate);
+        _gmCheckFlag.SetAction(true, () => StopMove());
+        _gmCheckFlag.SetAction(false, () => StartMove());
+    }
+
+    void MoveFlagUpdate()
+    {
+
+        _gmCheckFlag.CheckFlag(GameContoller.Instance._AnyOperate);
     }
     #endregion
     #region 移動
