@@ -19,7 +19,7 @@ MonoBehaviour:
     _hp: 20
     _attack: 3
     _guard: 5
-    _charImage: {fileID: 21300000, guid: 221759b44cfd87a418778b9977c29ea1, type: 3}
+    _charImage: {fileID: 21300000, guid: cc900507a7047ec40918aa92985dc2d1, type: 3}
     _mySkillList:
     - {fileID: 11400000, guid: 0f001f5b030d21348bd65dc23461d636, type: 2}
     - {fileID: 11400000, guid: 814158c4bb727c34f9bd5470934223d9, type: 2}

@@ -89,6 +89,7 @@ id: castle
 		$#name[コウ]
 		...今助けます、姫様。
 		$バキッボコッ
+		$#wait[300]
 		$#image[princess,0] right
 		$#name[ナターシャ]
 		コウ...もうやめて！
