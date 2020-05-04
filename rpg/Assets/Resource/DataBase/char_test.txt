@@ -10,7 +10,7 @@ id: player
 	}
 id: maou
 	name 魔王
-	hp 20
+	hp 1
 	attack 3
 	guard 5
 	skill{
@@ -19,7 +19,7 @@ id: maou
 	}
 id: akuma
 	name 悪魔
-	hp 5
+	hp 1
 	attack 3
 	guard 2
 	skill{
